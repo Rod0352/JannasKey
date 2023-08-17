@@ -1,0 +1,23 @@
+{
+  "name": "jannaskey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rod0352/JannasKey.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rod0352/JannasKey/issues"
+  },
+  "homepage": "https://github.com/Rod0352/JannasKey#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}
