@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*!
-* Start Bootstrap - Stylish Portfolio v6.0.6 (https://startbootstrap.com/theme/stylish-portfolio)
+* Start Bootstrap - Jannas Portfolio v1 (https://startbootstrap.com/theme/stylish-portfolio)
 * Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/LICENSE)
+* Licensed under MIT (https://github.com/StartBootstrap/alise-portfolio/blob/master/LICENSE)
 */
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
@@ -10873,7 +10873,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: rgba(52, 58, 64, 0.1);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -10938,7 +10938,7 @@ html {
   height: 50px;
   text-align: center;
   color: #fff;
-  background: rgba(52, 58, 64, 0.5);
+  background: #FFC107;
   line-height: 50px;
   z-index: 999;
 }
@@ -10956,16 +10956,18 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 70%), url("../assets/img/bg-callout.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: #0069af;
 }
 .callout h2, .callout .h2 {
   font-size: 3.5rem;
   font-weight: 700;
   display: block;
   max-width: 30rem;
+  color: #127bd0;
 }
 
 footer.footer {
