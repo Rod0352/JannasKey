@@ -48,7 +48,7 @@ html(lang='en')
             .container.px-4.px-lg-5.text-center
                 h1.mb-1 Hey! I'm Jai
                 h3.mb-3
-                    em A Real Estate Marketing Assistant
+                    em Real Estate Marketing Assistant
                 h6.mb-5
                     em Lets get your next listing sold!
                 a.btn.btn-warning.btn-xl(href='#about') Find Out More
@@ -59,9 +59,7 @@ html(lang='en')
                 .row.gx-4.gx-lg-5.justify-content-center
                     .col-lg-10
                         h2 Why Choose Me?
-                        p.lead.mb-5 I'm a highly motivated, driven, and organized individual who is passionate about helping others. I have a strong background in marketing, sales, and customer service. Im with the crew at 
-                            
-                            a(href='https://unsplash.com/') ASK JANNA
+                        p.lead.mb-5 I'm a highly motivated, driven, and organized individual who is passionate about helping others. I have a strong background in marketing, sales, and customer service
                             | !
                         a.btn.btn-dark.btn-xl(href='#services') What I Can Offer
 
@@ -127,28 +125,8 @@ html(lang='en')
                     | (432)599-7842
                 h6.mb-4
                     | jailewis999@gmail.com
+                a.btn.btn-success.btn-xl(href=`mailto:${from}`, target='_blank', ...) Contact Me #{from}
 
-        //- // Map
-        //- #contact.map
-        //-     iframe(src='https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&aq=0&oq=twitter&sll=28.659344,-81.187888&sspn=0.128789,0.264187&ie=UTF8&hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&t=m&z=15&iwloc=A&output=embed')
-        //-     br
-        //-     small
-        //-         a(href='https://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&aq=0&oq=twitter&sll=28.659344,-81.187888&sspn=0.128789,0.264187&ie=UTF8&hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&t=m&z=15&iwloc=A')
-
-        // Footer
-        footer.footer.text-center
-            .container.px-4.px-lg-5
-                ul.list-inline.mb-5
-                    li.list-inline-item
-                        a.social-link.rounded-circle.text-white.mr-3(href='#!')
-                            i.icon-social-facebook
-                    li.list-inline-item
-                        a.social-link.rounded-circle.text-white.mr-3(href='#!')
-                            i.icon-social-twitter
-                    li.list-inline-item
-                        a.social-link.rounded-circle.text-white(href='#!')
-                            i.icon-social-github
-                p.text-muted.small.mb-0 Copyright &copy; JaiInMartketing 2023
 
         // Scroll to Top Button
         a.scroll-to-top.rounded(href='#page-top')
